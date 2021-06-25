@@ -1,0 +1,36 @@
+/* Section */
+
+.contNosotros{
+    margin-bottom: 100px;
+}
+
+.imgNosotros, .imgNosotros2{
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .contNosotros{
+      background-attachment: scroll;
+    }
+}
+
+.imgNosotros{
+    background-image: url("/img/nosotros.jpg");
+    min-height: 600px; 
+    width:55%;
+}
+
+.textNosotros{
+    text-align: justify;
+    margin: 25px;
+}
+
+.imgNosotros2{
+    background-image: url("/img/nosotros2.jpg");
+    min-height: 600px; 
+    width:55%;
+}
