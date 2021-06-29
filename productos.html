@@ -1,257 +1,462 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SEMEC</title>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>SEMEC</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/logo.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <link rel="stylesheet" href="css/styles2.css">
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top"  id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"> <img src="assets/img/logo.png" width="65px" alt=""> SEMEC</a>
+                <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="index.html">Inicio</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="nosotros.html">Nosotros</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Servicios</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="productos.html">Productos</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/nosotros.css">
-    <link rel="stylesheet" href="css/productos.css">
-
-    <!--Google Fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap" rel="stylesheet">
-
-    <!--Font Awesome-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
-
-    <!--Favicon-->
-    <link rel="shortcut icon" href="img/logo.ico" type="image/x-icon">
     
-</head>
-
-<body>
-
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="/"><img src="img/logomenu.jpg" style="width: 23rem;" alt=""></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="/">Inicio <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="nosotros.html">Nosotros</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Servicios
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-              <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="productos.html">Productos</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="contacto.html">Contacto</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </header>
-
-    <section class="productos">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 text-center">
-                  <h2>Nuestros productos</h2><br>
-                  <h6>Básculas, Balanzas, Pesas, Indicadores, Celdas, Termómetros, Válvulas de seguridad y Manómetros.</h6>
-                </div>
-            </div><br>
-      
-            <div class="row">
-                <div class="col-sm">
-                    <div class="card">
-                        <img class="card-img-top" src="img/balanzasAnaliticas.PNG" alt="Card image cap">
-                        <div class="card-body">
-                          <h5 class="card-title">Balanzas Analíticas</h5>
-                            <p class="card-text">Contamos con gran variedad de marcas 
-                                reconocidas en el mercado.
-                                Brindamos asesoría previa para ayudarle a 
-                                elegir el instrumento mas adecuado para sus 
-                                necesidades.
-                            </p><br>
-                            <div class="d-flex justify-content-center">
-                                <div class="p-2 text-center contSellos"><img class="sellos" src="img/icono1.svg" alt=""><br> Seguridad</div>
-                                <div class="p-2 text-center contSellos"><img class="sellos" src="img/icono2.svg" alt=""><br>El mejor precio</div>
-                                <div class="p-2 text-center contSellos"><img class="sellos" src="img/icono3.svg" alt=""><br>A tiempo</div>
+        <!-- Productos Section-->
+        <section class="masthead2 page-section portfolio" id="portfolio">
+            <div class="container">
+                <!-- Portfolio Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Nuestros productos</h2>
+                <br><br>             
+                <!-- Portfolio Grid Items-->
+                <div class="row justify-content-center">
+                    <!-- Portfolio Item 1-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto">
+                            <div class="card">
+                                <img class="card-img-top" src="assets/img/portfolio/balanzasAnaliticas.PNG" alt="Card image cap">
+                                <div class="card-body"><br>
+                                  <h5 class="card-title">Balanzas Analíticas</h5>
+                                  <p class="card-text">Contamos con gran variedad de marcas 
+                                    reconocidas en el mercado.
+                                    Brindamos asesoría previa para ayudarle a 
+                                    elegir el instrumento mas adecuado para sus 
+                                    necesidades.
+                                  </p><br>
+                                    <div class="d-flex justify-content-center">
+                                        <div class="p-2 text-center contSellos"><img class="sellos" src="assets/img/portfolio/icono1.svg" alt=""><br> Seguridad</div>
+                                        <div class="p-2 text-center contSellos"><img class="sellos" src="assets/img/portfolio/icono2.svg" alt=""><br>El mejor precio</div>
+                                        <div class="p-2 text-center contSellos"><img class="sellos" src="assets/img/portfolio/icono3.svg" alt=""><br>A tiempo</div>
+                                    </div>
+                                    
+                                    <a href="#" class="btn d-flex justify-content-center d-flex align-items-center Btnproducto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">Ver producto</a>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 2-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto">
+                            <div class="card" >
+                                <img class="card-img-top" src="assets/img/portfolio/celdasdecarga.PNG" alt="Card image cap">
+                                <div class="card-body"><br>
+                                  <h5 class="card-title">Celdas de carga</h5>
+                                  <p class="card-text">Contamos con todo tipo de celdas de carga 
+                                    (para balanzas, basculas, plataformas, 
+                                    tanques, tolvas y para aplicaciones especiales)
+                                  </p><br><br>
+                                    <div class="d-flex justify-content-center">
+                                        <div class="p-2 text-center contSellos"><img class="sellos" src="assets/img/portfolio/icono1.svg" alt=""><br> Seguridad</div>
+                                        <div class="p-2 text-center contSellos"><img class="sellos" src="assets/img/portfolio/icono2.svg" alt=""><br>El mejor precio</div>
+                                        <div class="p-2 text-center contSellos"><img class="sellos" src="assets/img/portfolio/icono3.svg" alt=""><br>A tiempo</div>
+                                    </div>
+                                    <a href="#" class="btn d-flex justify-content-center d-flex align-items-center Btnproducto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">Ver producto</a>
+                                </div>
                             </div>
                         </div>
-                      </div>
-                </div>
-                <div class="col-sm">
-                    <div class="card" >
-                        <img class="card-img-top" src="img/celdasdecarga.PNG" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Celdas de carga</h5>
-                            <p class="card-text">Contamos con todo tipo de celdas de carga 
-                                (para balanzas, basculas, plataformas, 
-                                tanques, tolvas y para aplicaciones especiales)
-                            </p><br><br>
-                            <div class="d-flex justify-content-center">
-                                <div class="p-2 text-center contSellos"><img class="sellos" src="img/icono1.svg" alt=""><br> Seguridad</div>
-                                <div class="p-2 text-center contSellos"><img class="sellos" src="img/icono2.svg" alt=""><br>El mejor precio</div>
-                                <div class="p-2 text-center contSellos"><img class="sellos" src="img/icono3.svg" alt=""><br>A tiempo</div>
+                    </div>
+                    <!-- Portfolio Item 3-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto">
+                            <div class="card">
+                                <img class="card-img-top" src="assets/img/portfolio/indicadoresdepeso.PNG" alt="Card image cap">
+                                <div class="card-body"><br>
+                                  <h5 class="card-title">Indicadores de peso</h5>
+                                  <p class="card-text">Tenemos el Indicador adecuado a sus 
+                                    necesidades y economía material de plástico y 
+                                    Acero inoxidable.
+                                    Manejamos marcas comerciales y reconocidas 
+                                    como: Mettler Toledo, Weigh-Tronix, GSE, 
+                                    Ohaus, Rice Lake y AND, entre otros.</p>
+                                 
+                                    <div class="d-flex justify-content-center">
+                                        <div class="p-2 text-center contSellos"><img class="sellos" src="assets/img/portfolio/icono1.svg" alt=""><br> Seguridad</div>
+                                        <div class="p-2 text-center contSellos"><img class="sellos" src="assets/img/portfolio/icono2.svg" alt=""><br>El mejor precio</div>
+                                        <div class="p-2 text-center contSellos"><img class="sellos" src="assets/img/portfolio/icono3.svg" alt=""><br>A tiempo</div>
+                                    </div>
+              
+                                    <a href="#" class="btn d-flex justify-content-center d-flex align-items-center Btnproducto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">Ver producto</a>
+                                   
+                                </div>
                             </div>
                         </div>
-                      </div>
-                </div>
-                <div class="col-sm">
-                    <div class="card">
-                        <img class="card-img-top" src="img/indicadoresdepeso.PNG" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Indicadores de peso</h5>
-                            <p class="card-text">Tenemos el Indicador adecuado a sus 
-                                necesidades y economía material de plástico y 
-                                Acero inoxidable.
-                                Manejamos marcas comerciales y reconocidas 
-                                como: Mettler Toledo, Weigh-Tronix, GSE, 
-                                Ohaus, Rice Lake y AND, entre otros.
-                            </p>
-                            <div class="d-flex justify-content-center">
-                                <div class="p-2 text-center contSellos"><img class="sellos" src="img/icono1.svg" alt=""><br> Seguridad</div>
-                                <div class="p-2 text-center contSellos"><img class="sellos" src="img/icono2.svg" alt=""><br>El mejor precio</div>
-                                <div class="p-2 text-center contSellos"><img class="sellos" src="img/icono3.svg" alt=""><br>A tiempo</div>
-                            </div>                           
-                        </div>
-                      </div>
-                </div>
-        
-            </div><br>
+                    </div>
+                    <!-- Portfolio Item 4-->
+                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
+                            <div class="card">
+                                <img class="card-img-top" src="assets/img/portfolio/instalacion.PNG" alt="Card image cap">
+                                <div class="card-body">
+                                  <h5 class="card-title">Venta e instalación</h5>
+                                    <p class="card-text">Vendemos gran variedad de basculas y 
+                                        balanzas de laboratorio, comerciales e 
+                                        industriales. 
+                                        Además ofrecemos la instalación y 
+                                        diseños, para aplicaciones especiales.
+                                    </p><br>
+                                    <div class="d-flex justify-content-center">
+                                        <div class="p-2 text-center contSellos"><img class="sellos" src="assets/img/portfolio/icono1.svg" alt=""><br> Seguridad</div>
+                                        <div class="p-2 text-center contSellos"><img class="sellos" src="assets/img/portfolio/icono2.svg" alt=""><br>El mejor precio</div>
+                                        <div class="p-2 text-center contSellos"><img class="sellos" src="assets/img/portfolio/icono3.svg" alt=""><br>A tiempo</div>
+                                    </div>
 
-            <div class="row">
-                <div class="col-sm">
-                    <div class="card">
-                        <img class="card-img-top" src="img/instalacion.PNG" alt="Card image cap">
-                        <div class="card-body">
-                          <h5 class="card-title">Venta e instalación</h5>
-                            <p class="card-text">Vendemos gran variedad de basculas y 
-                                balanzas de laboratorio, comerciales e 
-                                industriales. 
-                                Además ofrecemos la instalación y 
-                                diseños, para aplicaciones especiales.
-                            </p><br>
-                            <div class="d-flex justify-content-center">
-                                <div class="p-2 text-center contSellos"><img class="sellos" src="img/icono1.svg" alt=""><br> Seguridad</div>
-                                <div class="p-2 text-center contSellos"><img class="sellos" src="img/icono2.svg" alt=""><br>El mejor precio</div>
-                                <div class="p-2 text-center contSellos"><img class="sellos" src="img/icono3.svg" alt=""><br>A tiempo</div>
+                                    <a href="#" class="btn d-flex justify-content-center d-flex align-items-center Btnproducto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">Ver producto</a>
+
+                                </div>
                             </div>
                         </div>
-                      </div>
-                </div>
-                <div class="col-sm">
-                    <div class="card" >
-                        <img class="card-img-top" src="img/basculas.PNG" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Básculas</h5>
-                            <p class="card-text">Contamos con gran variedad de básculas 
-                                Mecánicas y Digitales para de uso comercial e 
-                                industrial.
-                            </p><br><br><br>
-                            <div class="d-flex justify-content-center">
-                                <div class="p-2 text-center contSellos"><img class="sellos" src="img/icono1.svg" alt=""><br> Seguridad</div>
-                                <div class="p-2 text-center contSellos"><img class="sellos" src="img/icono2.svg" alt=""><br>El mejor precio</div>
-                                <div class="p-2 text-center contSellos"><img class="sellos" src="img/icono3.svg" alt=""><br>A tiempo</div>
+                    </div>
+                    
+                    <!-- Portfolio Item 5-->
+                    <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
+                            <div class="card" >
+                                <img class="card-img-top" src="assets/img/portfolio/basculas.PNG" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Básculas</h5>
+                                    <p class="card-text">Contamos con gran variedad de básculas 
+                                        Mecánicas y Digitales para de uso comercial e 
+                                        industrial.
+                                    </p><br><br><br>
+                                    <div class="d-flex justify-content-center">
+                                        <div class="p-2 text-center contSellos"><img class="sellos" src="assets/img/portfolio/icono1.svg" alt=""><br> Seguridad</div>
+                                        <div class="p-2 text-center contSellos"><img class="sellos" src="assets/img/portfolio/icono2.svg" alt=""><br>El mejor precio</div>
+                                        <div class="p-2 text-center contSellos"><img class="sellos" src="assets/img/portfolio/icono3.svg" alt=""><br>A tiempo</div>
+                                    </div>
+
+                                    <a href="#" class="btn d-flex justify-content-center d-flex align-items-center Btnproducto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">Ver producto</a>
+
+                                </div>
                             </div>
                         </div>
-                      </div>
-                </div>
-                <div class="col-sm">
-                    <div class="card">
-                        <img class="card-img-top" src="img/valvulas.PNG" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Válvulas de seguridad</h5>
-                            <p class="card-text">Venta, mantenimiento, ajuste de presión y 
-                                calibración de válvulas de seguridad en 
-                                material de bronce y acero inoxidable
-                            </p><br><br><br>
-                            <div class="d-flex justify-content-center">
-                                <div class="p-2 text-center contSellos"><img class="sellos" src="img/icono1.svg" alt=""><br> Seguridad</div>
-                                <div class="p-2 text-center contSellos"><img class="sellos" src="img/icono2.svg" alt=""><br>El mejor precio</div>
-                                <div class="p-2 text-center contSellos"><img class="sellos" src="img/icono3.svg" alt=""><br>A tiempo</div>
-                            </div>                           
+                    </div>
+                    
+                    <!-- Portfolio Item 6-->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
+                            <div class="card">
+                                <img class="card-img-top" src="assets/img/portfolio/valvulas.PNG" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Válvulas de seguridad</h5>
+                                    <p class="card-text">Venta, mantenimiento, ajuste de presión y 
+                                        calibración de válvulas de seguridad en 
+                                        material de bronce y acero inoxidable
+                                    </p><br><br>
+                                    <div class="d-flex justify-content-center">
+                                        <div class="p-2 text-center contSellos"><img class="sellos" src="assets/img/portfolio/icono1.svg" alt=""><br> Seguridad</div>
+                                        <div class="p-2 text-center contSellos"><img class="sellos" src="assets/img/portfolio/icono2.svg" alt=""><br>El mejor precio</div>
+                                        <div class="p-2 text-center contSellos"><img class="sellos" src="assets/img/portfolio/icono3.svg" alt=""><br>A tiempo</div>
+                                    </div>
+
+                                    <a href="#" class="btn d-flex justify-content-center d-flex align-items-center Btnproducto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">Ver producto</a>                          
+                                </div>
+                            </div>
                         </div>
-                      </div>
+                    </div>
                 </div>
-        
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="footer text-center">
+            <div class="container">
+                <div class="row">
+                    <!-- Footer Location-->
+                    <div class="col-lg-4 mb-5 mb-lg-0 contact">
+                        <h4 class="text-uppercase text-secondary"><a href="contacto.html">Contacto</a></h4>
+                        <table>
+                            <tr>
+                                <h5>
+                                    <td><i class="fas fa-phone-alt"></i></td>
+                                    <td>(01 55) 4431 6477</td>
+                                </h5>
+                            </tr>
+                            <tr>
+                                <h5>
+                                    <td><i class="fab fa-whatsapp"></i></td>
+                                    <td>(449) 329 21 62</td>
+                                </h5>
+                            </tr>
+                            <tr>
+                                <h5>
+                                    <td><i class="fas fa-envelope"></i></td>
+                                    <td>servicio@semec.mx <br>
+                                        ventas@semec.mx <br>
+                                        ventas-bajio@Semec.mx
+                                    </td>
+                                </h5>
+                            </tr>
+                        </table>
+                    </div>
+                    <!-- Footer Información-->
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4 text-secondary">Información</h4>
+                        <a href="nosotros.html"><i class="fas fa-users"></i>Nosotros</a><br><br>
+                        <a href=""> <i class="fas fa-tools"></i>Servicios</a><br><br>
+                        <a href="productos.html"> <i class="fas fa-cash-register"></i>Productos</a> 
+                    </div>
+                    <!-- Footer Atencion a clientes-->
+                    <div class="col-lg-4">
+                        <h4 class="text-uppercase mb-4 text-secondary">Atención a Clientes</h4>
+                        <p class="lead mb-0" style="text-align: justify; font-size: 1rem; padding-left: 2rem; padding-right: 2rem;">
+                            En Semec de México siempre le atenderemos con gusto y con la firme
+                            intención de resolver sus necesidades e inquietudes.
+                            Además te asesoramos para realizar compras de equipos y determinar
+                            alcances de servicios de mantenimiento y calibración acorde a tus
+                            necesidades.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Copyright Section-->
+        <div class="copyright py-4 text-center text-black-50">
+            <div class="container">
+                <small>SEMEC CALIBRACIONES S.A de C.V. ® <br>Todos los derechos reservados.</small>
             </div>
         </div>
-      </section>
-
-    <footer>
-        <hr class="col-12">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm">
-                    <h3>Atención a Clientes</h3><br>
-                    <p style="text-align: justify;">En Semec de México siempre le atenderemos con gusto y con la firme
-                        intención de resolver sus necesidades e inquietudes.
-                        Además te asesoramos para realizar compras de equipos y determinar
-                        alcances de servicios de mantenimiento y calibración acorde a tus
-                        necesidades.
-                    </p>
-                  </div>
-
-                <div class="col-sm info">
-                    <h3>Información</h3><br>
-                    <a href="nosotros.html"><i class="fas fa-users"></i>Nosotros</a><br>
-                    <a href=""> <i class="fas fa-tools"></i>Servicios</a><br>
-                    <a href="productos.html"> <i class="fas fa-cash-register"></i>Productos</a> 
+        <!-- Portfolio Modals-->
+        <!-- Portfolio Modal 1-->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Log Cabin</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cabin.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
+                                        <i class="fas fa-times fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-
-                <div class="col-sm contact">
-                    <h3><a href="contacto.html">Contacto</a></h3>
-                    <table>
-                        <tr>
-                            <h5>
-                                <td><i class="fas fa-phone-alt"></i></td>
-                                <td>(01 55) 4431 6477</td>
-                            </h5>
-                        </tr>
-                        <tr>
-                            <h5>
-                                <td><i class="fab fa-whatsapp"></i></td>
-                                <td>(449) 329 21 62</td>
-                            </h5>
-                        </tr>
-                        <tr>
-                            <h5>
-                                <td><i class="fas fa-envelope"></i></td>
-                                <td>servicio@semec.mx <br>
-                                    ventas@semec.mx <br>
-                                    ventas-bajio@Semec.mx
-                                </td>
-                            </h5>
-                        </tr>
-                    </table>
-              </div>
-
             </div>
-          </div>
-            <div class="finFooter text-center p-4">
-                <span class="small">SEMEC CALIBRACIONES S.A de C.V. ® <br>Todos los derechos reservados.</span>
+        </div>
+        <!-- Portfolio Modal 2-->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Tasty Cake</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cake.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
+                                        <i class="fas fa-times fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-    </footer>
+        </div>
+        <!-- Portfolio Modal 3-->
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal3" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Circus Tent</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/circus.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
+                                        <i class="fas fa-times fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 4-->
+        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" aria-labelledby="portfolioModal4" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Controller</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/game.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
+                                        <i class="fas fa-times fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 5-->
+        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" aria-labelledby="portfolioModal5" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Locked Safe</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/safe.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
+                                        <i class="fas fa-times fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 6-->
+        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" aria-labelledby="portfolioModal6" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Submarine</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/submarine.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
+                                        <i class="fas fa-times fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
 
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-</body>
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
 </html>
+
