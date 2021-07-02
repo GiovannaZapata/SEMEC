@@ -11051,6 +11051,7 @@ html {
   max-width: 25rem;
   border-radius: 0.5rem;
   overflow: hidden;
+  height: 35rem;
 }
 .portfolio .portfolio-item .portfolio-item-caption {
   position: absolute;
@@ -11125,17 +11126,11 @@ html {
 /*Nuestros productos*/
 .card{
   background-color: rgba(88, 174, 184, 0.089);
+  height: 35rem;
+}
+.cardintroProduct{
+  background-color: rgba(88, 174, 184, 0.089);
   height: 40rem;
-}
-
-.Btnproducto{
-  background-color: rgb(88,175,184);
-  color: white;
-}
-
-.Btnproducto:hover{
-  background-color: rgb(73, 145, 153);
-  color: white;
 }
 
 .card-text{
@@ -11147,13 +11142,17 @@ html {
   height: 15rem;
 }
 
+.card-img-top2{
+  min-height: 15rem;
+  height: 19rem;
+}
+
 .card-body{
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: space-between;
 }
-
 
 .sellos{
   width: 50%;
@@ -11169,8 +11168,75 @@ html {
   color: white;
 }
 
-/* Footer */
+.producto-item{
+  height: 35rem;
+}
 
+.portfolio .producto-item {
+  position: relative;
+  display: block;
+  max-width: 50rem;
+  max-height: 35rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.producto-item .caption {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(33, 75, 117, 0.74);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.producto-item .caption .caption-content {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+
+.producto-item .caption .caption-content p {
+  font-weight: 300;
+  font-size: 1.1rem;
+}
+
+@media (min-width: 992px) {
+  .producto-item{
+    max-width: none;
+    margin: 0;
+  }
+  .producto-item .caption {
+    transition: background-color 0.25s, -webkit-clip-path 0.25s ease-out;
+    transition: clip-path 0.25s ease-out, background-color 0.7s;
+    transition: clip-path 0.25s ease-out, background-color 0.7s, -webkit-clip-path 0.25s ease-out;
+    -webkit-clip-path: inset(0px);
+            clip-path: inset(0px);
+  }
+
+  .producto-item .caption .caption-content {
+    transition: opacity 0.25s;
+    margin: 1.5rem;
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .producto-item .caption .caption-content p {
+      font-weight: 400;
+      font-size: 1.25rem;
+  }
+  
+}
+
+
+/* Footer */
 .contact{
   display: flex;
   flex-direction: column;
