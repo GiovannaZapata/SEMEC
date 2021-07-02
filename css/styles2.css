@@ -540,3 +540,98 @@
             clip-path: inset(1rem);
   }
 }
+
+
+/* CALIBRACIÓN DE SISTEMAS DE PESAJE EN TOLVAS */
+
+.tolvascont{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(88, 174, 184, 0.089);
+  margin: 8px;
+  margin-top: 1rem;
+  padding: 1rem;
+}
+
+.portfolio .tolvas-item {
+  position: relative;
+  display: block;
+  max-width: 14rem;
+  height: 9.7rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.tolvas-item .caption {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.280);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+}
+.tolvas-item .caption .caption-content {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+  flex-direction: column;
+}
+
+.tolvascont p {
+  font-weight: 300;
+  font-size: 1rem;
+  text-align: justify;
+}
+
+.portfolio .tolvas-item2{
+  position: relative;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+@media (min-width: 992px) {
+
+  .tolvas-item{
+    max-width: none;
+    margin: 0;
+  }
+  .tolvas-item .caption {
+    transition: background-color 0.25s, -webkit-clip-path 0.25s ease-out;
+    transition: clip-path 0.25s ease-out, background-color 0.7s;
+    transition: clip-path 0.25s ease-out, background-color 0.7s, -webkit-clip-path 0.25s ease-out;
+    -webkit-clip-path: inset(0px);
+            clip-path: inset(0px);
+  }
+  .tolvas-item .caption .caption-content {
+    transition: opacity 0.25s;
+    margin: 0.9rem;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .tolvas-item img {
+    transition: -webkit-clip-path 0.25s ease-out;
+    transition: clip-path 0.25s ease-out;
+    transition: clip-path 0.25s ease-out, -webkit-clip-path 0.25s ease-out;
+    -webkit-clip-path: inset(-1px);
+            clip-path: inset(-1px);
+  }
+  .tolvas-item:hover img {
+    -webkit-clip-path: inset(0.5rem);
+            clip-path: inset(0.5rem);
+  }
+  .tolvas-item:hover .caption {
+    background-color: rgba(29, 129, 159, 0);
+    -webkit-clip-path: inset(0.5rem);
+            clip-path: inset(0.5rem);
+  }
+}
