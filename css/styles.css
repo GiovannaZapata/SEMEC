@@ -10865,6 +10865,7 @@ html {
   }
 }
 
+
 .divider-custom {
   margin: 1.25rem 0 1.5rem;
   width: 100%;
@@ -11235,6 +11236,28 @@ html {
   
 }
 
+/* otros productosy costos */
+.textOtros{
+  text-align: left;
+}
+
+.costosContainer{
+  background-color: rgb(33, 75, 117);
+  padding: 2rem;
+  text-align: left;
+  height: 28rem;
+}
+
+.masthead-subheading2 {
+  font-size: 1.1rem;
+}
+
+@media (min-width: 992px) {
+  .masthead-subheading2 {
+    font-size: 1.1rem;
+  }
+}
+
 
 /* Footer */
 .contact{
@@ -11256,4 +11279,3 @@ table{
 td{
   padding-bottom: 15px;
 }
-
