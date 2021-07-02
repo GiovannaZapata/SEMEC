@@ -311,7 +311,7 @@
     
   }
 
-  /* calibracion en temperatura */
+/* calibracion en temperatura */
 .portfolio .temperatura-item {
   position: relative;
   display: block;
@@ -461,3 +461,82 @@
     }
     
   }
+
+/* Verficacion de basculas */
+.portfolio .verificacion-item {
+  position: relative;
+  display: block;
+  max-width: 20rem;
+  max-height: 15rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.verificacion-item .caption {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.589);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.verificacion-item .caption .caption-content {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+
+.verificacion-item .caption .caption-content p {
+  font-weight: 300;
+  font-size: 1.1rem;
+}
+
+@media (min-width: 992px) {
+  .verificacion-item{
+    max-width: none;
+    margin: 0;
+  }
+  .verificacion-item .caption {
+    transition: background-color 0.25s, -webkit-clip-path 0.25s ease-out;
+    transition: clip-path 0.25s ease-out, background-color 0.7s;
+    transition: clip-path 0.25s ease-out, background-color 0.7s, -webkit-clip-path 0.25s ease-out;
+    -webkit-clip-path: inset(0px);
+            clip-path: inset(0px);
+  }
+
+  .verificacion-item .caption .caption-content {
+    transition: opacity 0.25s;
+    margin: 1.5rem;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .verificacion-item .caption .caption-content p {
+      font-weight: 300;
+      font-size: 1.1rem;
+  }
+  
+  .verificacion-item img {
+    transition: -webkit-clip-path 0.25s ease-out;
+    transition: clip-path 0.25s ease-out;
+    transition: clip-path 0.25s ease-out, -webkit-clip-path 0.25s ease-out;
+    -webkit-clip-path: inset(-1px);
+            clip-path: inset(-1px);
+  }
+  .verificacion-item:hover img {
+    -webkit-clip-path: inset(1rem);
+            clip-path: inset(1rem);
+  }
+  .verificacion-item:hover .caption {
+    background-color: rgba(29, 129, 159, 0.753);
+    -webkit-clip-path: inset(1rem);
+            clip-path: inset(1rem);
+  }
+}
