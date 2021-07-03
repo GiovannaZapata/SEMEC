@@ -18,18 +18,12 @@
 .imgNosotros{
     background-image: url("/assets/img/nosotros.jpg");
     min-height: 600px; 
-    width:55%;
-}
-
-.imgNosotros2{
-    background-image: url("/assets/img/nosotros2.jpg");
-    min-height: 600px; 
-    width:55%;
+    width:40%;
 }
 
 .textNosotros{
     text-align: justify;
-    margin: 25px;
+    padding: 25px;
 }
 
 /* Contacto */
@@ -53,497 +47,30 @@
 
 
 /* Servicios */
-
-.portfolio .portfolio-item3 {
-    position: relative;
-    display: block;
-    max-width: 20rem;
-    border-radius: 0.5rem;
-    overflow: hidden;
-}
-
-.portfolio-item3 {
-    display: block;
-    position: relative;
-    overflow: hidden;
-    max-width: 530px;
-    margin: auto auto 1rem;
-  }
-  .portfolio-item3 .caption {
-    display: flex;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.459);
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    z-index: 1;
-  }
-  .portfolio-item3 .caption .caption-content {
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 1rem;
-  }
-  .portfolio-item3 .caption .caption-content h2, .portfolio-item3 .caption .caption-content .h2 {
-    font-size: 0.8rem;
-    text-transform: uppercase;
-  }
-  .portfolio-item3 .caption .caption-content p {
-    font-weight: 300;
-    font-size: 1.1rem;
-  }
-
-  @media (min-width: 992px) {
-    .portfolio-item3 {
-      max-width: none;
-      margin: 0;
-    }
-    .portfolio-item3 .caption {
-      transition: background-color 0.25s, -webkit-clip-path 0.25s ease-out;
-      transition: clip-path 0.25s ease-out, background-color 0.7s;
-      transition: clip-path 0.25s ease-out, background-color 0.7s, -webkit-clip-path 0.25s ease-out;
-      -webkit-clip-path: inset(0px);
-              clip-path: inset(0px);
-    }
-    .portfolio-item3 .caption .caption-content {
-      transition: opacity 0.25s;
-      margin: 3rem;
-      
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-
-    .portfolio-item3 img {
-      transition: -webkit-clip-path 0.25s ease-out;
-      transition: clip-path 0.25s ease-out;
-      transition: clip-path 0.25s ease-out, -webkit-clip-path 0.25s ease-out;
-      -webkit-clip-path: inset(-1px);
-              clip-path: inset(-1px);
-    }
-    .portfolio-item3:hover img {
-      -webkit-clip-path: inset(1rem);
-              clip-path: inset(1rem);
-    }
-    .portfolio-item3:hover .caption {
-      background-color: rgba(29, 129, 159, 0.753);
-      -webkit-clip-path: inset(1rem);
-              clip-path: inset(1rem);
-    }
-  }
-
-  .portfolio .portfolio-item2{
-    position: relative;
-    max-width: 20rem;
-    border-radius: 0.5rem;
-    overflow: hidden;
-  }
-
-  /* calibraciones pesas */
-  .portfolio .pesas-item {
-    position: relative;
-    display: block;
-    max-width: 24rem;
-    border-radius: 0.5rem;
-    overflow: hidden;
-}
-
-.pesas-item {
-    display: block;
-    position: relative;
-    overflow: hidden;
-    max-width: 530px;
-    margin: auto auto 1rem;
-  }
-
-.pesas-item .caption {
-    display: flex;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.459);
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    z-index: 1;
-}
-
-.pesas-item .caption .caption-content {
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 1rem;
-}
-
-.pesas-item .caption .caption-content p {
-    font-weight: 300;
-    font-size: 1.1rem;
-}
-
-/* calibracion en fuerza */
-.portfolio .fuerza-item {
-    position: relative;
-    display: block;
-    max-width: 20rem;
-    border-radius: 0.5rem;
-    overflow: hidden;
-}
-
-.fuerza-item {
-    display: block;
-    position: relative;
-    overflow: hidden;
-    max-width: 530px;
-    margin: auto auto 1rem;
-}
-
-.fuerza-item .caption {
-    display: flex;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.589);
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    z-index: 1;
-}
-
-.fuerza-item .caption .caption-content {
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 1rem;
-}
-
-.fuerza-item .caption .caption-content p {
-  font-weight: 300;
-  font-size: 1.1rem;
-}
-
-
-@media (min-width: 992px) {
-    .fuerza-item {
-      max-width: none;
-      margin: 0;
-    }
-    .fuerza-item .caption {
-      transition: background-color 0.25s, -webkit-clip-path 0.25s ease-out;
-      transition: clip-path 0.25s ease-out, background-color 0.7s;
-      transition: clip-path 0.25s ease-out, background-color 0.7s, -webkit-clip-path 0.25s ease-out;
-      -webkit-clip-path: inset(0px);
-              clip-path: inset(0px);
-    }
-
-    .fuerza-item .caption .caption-content {
-      transition: opacity 0.25s;
-      margin: 1.5rem;
-      
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-
-    .fuerza-item .caption .caption-content p {
-        font-weight: 300;
-        font-size: 0.95rem;
-    }
-    
-    .fuerza-item img {
-      transition: -webkit-clip-path 0.25s ease-out;
-      transition: clip-path 0.25s ease-out;
-      transition: clip-path 0.25s ease-out, -webkit-clip-path 0.25s ease-out;
-      -webkit-clip-path: inset(-1px);
-              clip-path: inset(-1px);
-    }
-    .fuerza-item:hover img {
-      -webkit-clip-path: inset(1rem);
-              clip-path: inset(1rem);
-    }
-    .fuerza-item:hover .caption {
-      background-color: rgba(29, 129, 159, 0.753);
-      -webkit-clip-path: inset(1rem);
-              clip-path: inset(1rem);
-    }
-  }
-
-
-/* calibracion en presion */
-.portfolio .presion-item {
-    position: relative;
-    display: block;
-    max-width: 40rem;
-    border-radius: 0.5rem;
-    overflow: hidden;
-}
-
-.presion-item .caption {
-    display: flex;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.562);
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    z-index: 1;
-}
-
-.presion-item .caption .caption-content {
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 1rem;
-}
-
-
-.presion-item .caption .caption-content p{
-    font-size: 1.1rem;
-    line-height: 2rem;
-  }
-  @media (min-width: 992px) {
-    .presion-item .caption .caption-content p {
-        font-weight: 300;
-        font-size: 1.2rem;
-    }
-    
-  }
-
-/* calibracion en temperatura */
-.portfolio .temperatura-item {
-  position: relative;
-  display: block;
-  max-width: 20rem;
-  max-height: 25rem;
-  border-radius: 0.5rem;
-  overflow: hidden;
-}
-
-.temperatura-item .caption {
-  display: flex;
-  height: 100%;
+.divider-custom-line3 {
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.589);
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  z-index: 1;
+  max-width: 5rem;
+  height: 0.25rem;
+  background-color: rgb(88,175,184);
+  border-color: rgb(88,175,184);
+  margin-top: 3px;
+  margin-bottom: 8px;
 }
 
-.temperatura-item .caption .caption-content {
-  color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 1rem;
+.titleServicios{
+  font-size: 1.2rem;
+  font-weight: 700;
 }
 
-.temperatura-item .caption .caption-content p {
-  font-weight: 300;
-  font-size: 1.1rem;
+.contServicios{
+  padding-left: 1rem;
 }
 
-@media (min-width: 992px) {
-  .temperatura-item{
-    max-width: none;
-    margin: 0;
-  }
-  .temperatura-item .caption {
-    transition: background-color 0.25s, -webkit-clip-path 0.25s ease-out;
-    transition: clip-path 0.25s ease-out, background-color 0.7s;
-    transition: clip-path 0.25s ease-out, background-color 0.7s, -webkit-clip-path 0.25s ease-out;
-    -webkit-clip-path: inset(0px);
-            clip-path: inset(0px);
-  }
-
-  .temperatura-item .caption .caption-content {
-    transition: opacity 0.25s;
-    margin: 1.5rem;
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .temperatura-item .caption .caption-content p {
-      font-weight: 300;
-      font-size: 1.1rem;
-  }
-  
-  .temperatura-item img {
-    transition: -webkit-clip-path 0.25s ease-out;
-    transition: clip-path 0.25s ease-out;
-    transition: clip-path 0.25s ease-out, -webkit-clip-path 0.25s ease-out;
-    -webkit-clip-path: inset(-1px);
-            clip-path: inset(-1px);
-  }
-  .temperatura-item:hover img {
-    -webkit-clip-path: inset(1rem);
-            clip-path: inset(1rem);
-  }
-  .temperatura-item:hover .caption {
-    background-color: rgba(29, 129, 159, 0.753);
-    -webkit-clip-path: inset(1rem);
-            clip-path: inset(1rem);
-  }
+.textServicios{
+  list-style: none;
 }
 
-
-  /* Servicio de mantenimiento */
-  .portfolio .mantenimiento-item {
-    position: relative;
-    display: block;
-    max-width: 50rem;
-    max-height: 20rem;
-    border-radius: 0.5rem;
-    overflow: hidden;
-  }
-  
-  .mantenimiento-item .caption {
-    display: flex;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.320);
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    z-index: 1;
-  }
-  
-  .mantenimiento-item .caption .caption-content {
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 1rem;
-  }
-  
-  .mantenimiento-item .caption .caption-content p {
-    font-weight: 300;
-    font-size: 1.1rem;
-  }
-  
-  @media (min-width: 992px) {
-    .mantenimiento-item{
-      max-width: none;
-      margin: 0;
-    }
-    .mantenimiento-item .caption {
-      transition: background-color 0.25s, -webkit-clip-path 0.25s ease-out;
-      transition: clip-path 0.25s ease-out, background-color 0.7s;
-      transition: clip-path 0.25s ease-out, background-color 0.7s, -webkit-clip-path 0.25s ease-out;
-      -webkit-clip-path: inset(0px);
-              clip-path: inset(0px);
-    }
-  
-    .mantenimiento-item .caption .caption-content {
-      transition: opacity 0.25s;
-      margin: 1.5rem;
-      
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-  
-    .mantenimiento-item .caption .caption-content p {
-        font-weight: 400;
-        font-size: 1.25rem;
-    }
-    
-    .mantenimiento-item img {
-      transition: -webkit-clip-path 0.25s ease-out;
-      transition: clip-path 0.25s ease-out;
-      transition: clip-path 0.25s ease-out, -webkit-clip-path 0.25s ease-out;
-      -webkit-clip-path: inset(-1px);
-              clip-path: inset(-1px);
-    }
-    
-  }
-
-/* Verficacion de basculas */
-.portfolio .verificacion-item {
-  position: relative;
-  display: block;
-  max-width: 20rem;
-  max-height: 15rem;
-  border-radius: 0.5rem;
-  overflow: hidden;
-}
-
-.verificacion-item .caption {
-  display: flex;
-  height: 100%;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.589);
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  z-index: 1;
-}
-
-.verificacion-item .caption .caption-content {
-  color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 1rem;
-}
-
-.verificacion-item .caption .caption-content p {
-  font-weight: 300;
-  font-size: 1.1rem;
-}
-
-@media (min-width: 992px) {
-  .verificacion-item{
-    max-width: none;
-    margin: 0;
-  }
-  .verificacion-item .caption {
-    transition: background-color 0.25s, -webkit-clip-path 0.25s ease-out;
-    transition: clip-path 0.25s ease-out, background-color 0.7s;
-    transition: clip-path 0.25s ease-out, background-color 0.7s, -webkit-clip-path 0.25s ease-out;
-    -webkit-clip-path: inset(0px);
-            clip-path: inset(0px);
-  }
-
-  .verificacion-item .caption .caption-content {
-    transition: opacity 0.25s;
-    margin: 1.5rem;
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .verificacion-item .caption .caption-content p {
-      font-weight: 300;
-      font-size: 1.1rem;
-  }
-  
-  .verificacion-item img {
-    transition: -webkit-clip-path 0.25s ease-out;
-    transition: clip-path 0.25s ease-out;
-    transition: clip-path 0.25s ease-out, -webkit-clip-path 0.25s ease-out;
-    -webkit-clip-path: inset(-1px);
-            clip-path: inset(-1px);
-  }
-  .verificacion-item:hover img {
-    -webkit-clip-path: inset(1rem);
-            clip-path: inset(1rem);
-  }
-  .verificacion-item:hover .caption {
-    background-color: rgba(29, 129, 159, 0.753);
-    -webkit-clip-path: inset(1rem);
-            clip-path: inset(1rem);
-  }
-}
-
-
-/* CALIBRACIÓN DE SISTEMAS DE PESAJE EN TOLVAS */
-
+/* CALIBRACIÓN DE SISTEMAS DE PESAJE EN TOLVAS y para los demas servicios */
 .tolvascont{
   display: flex;
   justify-content: space-between;
@@ -558,11 +85,9 @@
 .portfolio .tolvas-item {
   position: relative;
   display: block;
-  max-width: 14rem;
-  height: 9.7rem;
-  border-radius: 0.5rem;
+  max-width: 100%;
+  height: 100%;
   overflow: hidden;
-  margin-top: 10px;
 }
 
 .tolvas-item .caption {
@@ -574,26 +99,6 @@
   top: 0;
   bottom: 0;
   z-index: 1;
-}
-.tolvas-item .caption .caption-content {
-  color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 1rem;
-  flex-direction: column;
-}
-
-.tolvascont p {
-  font-weight: 300;
-  font-size: 1rem;
-  text-align: justify;
-}
-
-.portfolio .tolvas-item2{
-  position: relative;
-  border-radius: 0.5rem;
-  overflow: hidden;
 }
 
 @media (min-width: 992px) {

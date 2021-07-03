@@ -11136,7 +11136,7 @@ html {
 }
 .cardintroProduct{
   background-color: rgba(88, 174, 184, 0.089);
-  height: 40rem;
+  height: 35rem;
 }
 
 .card-text{
@@ -11250,7 +11250,9 @@ html {
   background-color: rgb(33, 75, 117);
   padding: 2rem;
   text-align: left;
-  height: 28rem;
+  height: 30rem;
+  margin-left: 1.3rem;
+  margin-right: 1.3rem;
 }
 
 .masthead-subheading2 {
@@ -11259,7 +11261,7 @@ html {
 
 @media (min-width: 992px) {
   .masthead-subheading2 {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 }
 
