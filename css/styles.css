@@ -2948,28 +2948,33 @@ textarea.form-control-lg {
 }
 
 .btn-primary {
+  
   color: #fff;
-  background-color: #1abc9c;
-  border-color: #1abc9c;
+  
+  background-color: rgb(88,175,184);
+  border-color: rgb(88,175,184);
+/*
+  background-color: rgb(33, 75, 117);
+  border-color: rgb(33, 75, 117);*/
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #16a085;
-  border-color: #15967d;
+  background-color: rgb(71, 139, 146);
+  border-color: rgb(71, 139, 146);
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
-  background-color: #16a085;
-  border-color: #15967d;
-  box-shadow: 0 0 0 0.25rem rgba(60, 198, 171, 0.5);
+  background-color: rgb(71, 139, 146);
+  border-color: rgb(71, 139, 146);
+  box-shadow: 0 0 0 0.25rem rgb(71, 139, 146, 0.5);
 }
 .btn-check:checked + .btn-primary, .btn-check:active + .btn-primary, .btn-primary:active, .btn-primary.active, .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #15967d;
-  border-color: #148d75;
+  background-color: rgb(71, 139, 146);
+  border-color: rgb(71, 139, 146);
 }
 .btn-check:checked + .btn-primary:focus, .btn-check:active + .btn-primary:focus, .btn-primary:active:focus, .btn-primary.active:focus, .show > .btn-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.25rem rgba(60, 198, 171, 0.5);
+  box-shadow: 0 0 0 0.25rem rgb(71, 139, 146, 0.5);
 }
 .btn-primary:disabled, .btn-primary.disabled {
   color: #fff;
@@ -3188,13 +3193,13 @@ textarea.form-control-lg {
 }
 
 .btn-outline-primary {
-  color: #1abc9c;
-  border-color: #1abc9c;
+  color: rgb(88,175,184);
+  border-color: rgb(88,175,184);
 }
 .btn-outline-primary:hover {
   color: #fff;
-  background-color: #1abc9c;
-  border-color: #1abc9c;
+  background-color: rgb(88,175,184);
+  border-color: rgb(88,175,184);
 }
 .btn-check:focus + .btn-outline-primary, .btn-outline-primary:focus {
   box-shadow: 0 0 0 0.25rem rgba(26, 188, 156, 0.5);
@@ -3368,8 +3373,8 @@ textarea.form-control-lg {
 }
 .btn-outline-dark:hover {
   color: #fff;
-  background-color: #212529;
-  border-color: #212529;
+  background-color: rgb(33, 75, 117);
+  border-color: rgb(33, 75, 117);
 }
 .btn-check:focus + .btn-outline-dark, .btn-outline-dark:focus {
   box-shadow: 0 0 0 0.25rem rgba(33, 37, 41, 0.5);
@@ -3958,8 +3963,10 @@ textarea.form-control-lg {
   justify-content: space-between;
 }
 .navbar-brand {
-  padding-top: 0.3125rem;
-  padding-bottom: 0.3125rem;
+  /*padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;*/
+  padding-top: 0.9375rem;
+  padding-bottom: 0.9375rem;
   margin-right: 1rem;
   font-size: 1.25rem;
   text-decoration: none;
@@ -10931,6 +10938,11 @@ html {
   font-size: 1.25rem;
 }
 
+.btn-xl2 {
+  padding: 0.5rem 1.75rem;
+  font-size: 1.1rem;
+}
+
 .btn-social {
   border-radius: 100%;
   display: inline-flex;
@@ -10955,6 +10967,7 @@ html {
 }
 #mainNav .navbar-nav li.nav-item a.nav-link {
   color: rgb(33, 75, 117);
+  font-size: 0.94rem;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
   color: rgb(88,175,184);
@@ -11057,8 +11070,8 @@ html {
   max-width: 25rem;
   border-radius: 0.5rem;
   overflow: hidden;
-  height: 35rem;
 }
+
 .portfolio .portfolio-item .portfolio-item-caption {
   position: absolute;
   top: 0;
@@ -11167,6 +11180,7 @@ html {
 .Btnvertodos{
   background-color: rgb(33, 75, 117);
   color: white;
+  margin-right: 10px;
 }
 
 .Btnvertodos:hover{
@@ -11250,7 +11264,6 @@ html {
   background-color: rgb(33, 75, 117);
   padding: 2rem;
   text-align: left;
-  height: 30rem;
   margin-left: 1.3rem;
   margin-right: 1.3rem;
 }
@@ -11286,3 +11299,4 @@ table{
 td{
   padding-bottom: 15px;
 }
+
