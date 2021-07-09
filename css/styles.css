@@ -2940,7 +2940,7 @@ textarea.form-control-lg {
 }
 .btn-check:focus + .btn, .btn:focus {
   outline: 0;
-  box-shadow: 0 0 0 0.25rem rgba(26, 188, 156, 0.25);
+  box-shadow: 0 0 0 0.25rem rgb(33, 75, 117, 0.25);
 }
 .btn:disabled, .btn.disabled, fieldset:disabled .btn {
   pointer-events: none;
@@ -2950,13 +2950,13 @@ textarea.form-control-lg {
 .btn-primary {
   
   color: #fff;
-  /*
-  background-color: rgb(88,175,184);
-  border-color: rgb(88,175,184);*/
-
   
+  background-color: rgb(88,175,184);
+  border-color: rgb(88,175,184);
+
+/*
   background-color: rgb(33, 75, 117);
-  border-color: rgb(33, 75, 117);
+  border-color: rgb(33, 75, 117); */
 }
 .btn-primary:hover {
   color: #fff;
@@ -10940,7 +10940,7 @@ html {
 }
 
 .btn-xl2 {
-  padding: 0.5rem 1.75rem;
+  padding: 0.6rem 1.75rem;
   font-size: 1.1rem;
 }
 
@@ -11120,6 +11120,28 @@ html {
 .textCert{
   width: 75%;
   padding: 1rem;
+}
+
+
+/* Conoce a nuestros clientes*/
+#clientes{
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+  #clientes{
+    background-attachment: scroll;
+  }
+}
+
+#clientes{
+  background-image: url("/assets/img/fondoclientes.png");
 }
 
 /* Mas sobre nosotros*/
