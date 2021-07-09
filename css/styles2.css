@@ -45,6 +45,17 @@
     margin: 15px;
 }
 
+.colContact2{
+  padding: 25px;
+  margin: 15px;
+}
+
+.colContact3{
+  padding: 25px;
+  background-color: rgba(88, 174, 184, 0.089);
+  margin: 15px;
+}
+
 
 /* Servicios */
 .divider-custom-line3 {
