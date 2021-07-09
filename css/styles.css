@@ -2950,12 +2950,13 @@ textarea.form-control-lg {
 .btn-primary {
   
   color: #fff;
-  
+  /*
   background-color: rgb(88,175,184);
-  border-color: rgb(88,175,184);
-/*
+  border-color: rgb(88,175,184);*/
+
+  
   background-color: rgb(33, 75, 117);
-  border-color: rgb(33, 75, 117);*/
+  border-color: rgb(33, 75, 117);
 }
 .btn-primary:hover {
   color: #fff;
