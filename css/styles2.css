@@ -16,6 +16,7 @@
 }
 
 .imgNosotros{
+    /*background-image: url("/assets/img/nosotros.jpg");*/
     background-image: url("/assets/img/nosotros.jpg");
     min-height: 600px; 
     width:40%;
