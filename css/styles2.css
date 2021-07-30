@@ -1,183 +1,196 @@
 /* Sobre nosotros */
 
-.imgNosotros, .imgNosotros2{
+.imgNosotros,
+.imgNosotros2 {
     position: relative;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;   
+    background-size: cover;
 }
 
+
 /* Turn off parallax scrolling for tablets and phones */
+
 @media only screen and (max-device-width: 1024px) {
-    .imgNosotros, .imgNosotros2{
-      background-attachment: scroll;
+    .imgNosotros,
+    .imgNosotros2 {
+        background-attachment: scroll;
     }
 }
 
-.imgNosotros{
+.imgNosotros {
     /*background-image: url("/assets/img/nosotros.jpg");*/
     background-image: url("/assets/img/nosotros.jpg");
-    min-height: 600px; 
-    width:40%;
+    min-height: 600px;
+    width: 40%;
 }
 
-.textNosotros{
+.textNosotros {
     text-align: justify;
     padding: 25px;
 }
 
+
 /* Contacto */
 
-.textContact{
+.textContact {
     text-align: justify;
 }
 
-
-.textemail{
+.textemail {
     text-align: justify;
     width: 15%;
 }
 
-
-.colContact{
+.colContact {
     padding: 25px;
     background-color: rgba(88, 174, 184, 0.089);
     margin: 15px;
 }
 
-.colContact2{
-  padding: 25px;
-  margin: 15px;
+.colContact2 {
+    padding: 25px;
+    margin: 15px;
 }
 
-.colContact3{
-  padding: 25px;
-  background-color: rgba(88, 174, 184, 0.089);
-  margin: 15px;
+.colContact3 {
+    padding: 25px;
+    background-color: rgba(88, 174, 184, 0.089);
+    margin: 15px;
 }
 
 
 /* Servicios */
+
 .divider-custom-line3 {
-  width: 100%;
-  max-width: 5rem;
-  height: 0.25rem;
-  background-color: rgb(88,175,184);
-  border-color: rgb(88,175,184);
-  margin-top: 3px;
-  margin-bottom: 8px;
+    width: 100%;
+    max-width: 5rem;
+    height: 0.25rem;
+    background-color: rgb(88, 175, 184);
+    border-color: rgb(88, 175, 184);
+    margin-top: 3px;
+    margin-bottom: 8px;
 }
 
-.titleServicios{
-  font-size: 1.2rem;
-  font-weight: 700;
+.titleServicios {
+    font-size: 1.2rem;
+    font-weight: 700;
 }
 
-.contServicios{
-  padding-left: 1rem;
+.contServicios {
+    padding-left: 1rem;
 }
 
-.textServicios{
-  list-style: none;
+.textServicios {
+    list-style: none;
 }
+
 
 /* CALIBRACIÓN DE SISTEMAS DE PESAJE EN TOLVAS y para los demas servicios */
 
 .portfolio .tolvas-item {
-  position: relative;
-  display: block;
-  max-width: 100%;
-  height: 100%;
-  overflow: hidden;
+    position: relative;
+    display: block;
+    max-width: 100%;
+    height: 100%;
+    overflow: hidden;
 }
 
 .tolvas-item .caption {
-  display: flex;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  z-index: 1;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
 }
+
 
 /* Nuestros clientes */
 
 .portfolio .portfolio-item2 {
-  position: relative;
-  display: block;
-  max-width: 15rem;
-  border-radius: 0.5rem;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    position: relative;
+    display: block;
+    max-width: 15rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 
 /* Nuestras certificaciones */
 
 .cert-item {
-  display: block;
-  position: relative;
-  overflow: hidden;
-  max-width: 530px;
-  margin: auto auto 1rem;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    max-width: 530px;
+    margin: auto auto 1rem;
 }
+
 .cert-item .caption {
-  display: flex;
-  height: 100%;
-  width: 100%;
-  background-color: rgba(33, 37, 41, 0.2);
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  z-index: 1;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(33, 37, 41, 0.2);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
 }
+
 .cert-item .caption .caption-content {
-  color: #fff;
-  margin: auto 2rem 2rem;
+    color: #fff;
+    margin: auto 2rem 2rem;
 }
-.cert-item .caption .caption-content h2, .cert-item .caption .caption-content .h2 {
-  font-size: 0.8rem;
-  text-transform: uppercase;
+
+.cert-item .caption .caption-content h2,
+.cert-item .caption .caption-content .h2 {
+    font-size: 0.8rem;
+    text-transform: uppercase;
 }
+
 .cert-item .caption .caption-content p {
-  font-weight: 300;
-  font-size: 1rem;
+    font-weight: 300;
+    font-size: 1rem;
 }
+
 @media (min-width: 992px) {
-  .cert-item {
-    max-width: none;
-    margin: 0;
-  }
-  .cert-item .caption {
-    transition: background-color 0.7s, -webkit-clip-path 0.25s ease-out;
-    transition: clip-path 0.25s ease-out, background-color 0.7s;
-    transition: clip-path 0.25s ease-out, background-color 0.7s, -webkit-clip-path 0.25s ease-out;
-    -webkit-clip-path: inset(0px);
-            clip-path: inset(0px);
-  }
-  .cert-item .caption .caption-content {
-    transition: opacity 0.25s;
-    margin-left: 3rem;
-    margin-right: 3rem;
-    margin-bottom: 3rem;
-  }
-  .cert-item img {
-    transition: -webkit-clip-path 0.25s ease-out;
-    transition: clip-path 0.25s ease-out;
-    transition: clip-path 0.25s ease-out, -webkit-clip-path 0.25s ease-out;
-    -webkit-clip-path: inset(-1px);
-            clip-path: inset(-1px);
-  }
-  .cert-item:hover img {
-    -webkit-clip-path: inset(2rem);
-            clip-path: inset(2rem);
-  }
-  .cert-item:hover .caption {
-    background-color: rgba(72, 137, 145, 0.9);
-    -webkit-clip-path: inset(2rem);
-            clip-path: inset(2rem);
-  }
+    .cert-item {
+        max-width: none;
+        margin: 0;
+    }
+    .cert-item .caption {
+        transition: background-color 0.7s, -webkit-clip-path 0.25s ease-out;
+        transition: clip-path 0.25s ease-out, background-color 0.7s;
+        transition: clip-path 0.25s ease-out, background-color 0.7s, -webkit-clip-path 0.25s ease-out;
+        -webkit-clip-path: inset(0px);
+        clip-path: inset(0px);
+    }
+    .cert-item .caption .caption-content {
+        transition: opacity 0.25s;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        margin-bottom: 3rem;
+    }
+    .cert-item img {
+        transition: -webkit-clip-path 0.25s ease-out;
+        transition: clip-path 0.25s ease-out;
+        transition: clip-path 0.25s ease-out, -webkit-clip-path 0.25s ease-out;
+        -webkit-clip-path: inset(-1px);
+        clip-path: inset(-1px);
+    }
+    .cert-item:hover img {
+        -webkit-clip-path: inset(2rem);
+        clip-path: inset(2rem);
+    }
+    .cert-item:hover .caption {
+        background-color: rgba(72, 137, 145, 0.9);
+        -webkit-clip-path: inset(2rem);
+        clip-path: inset(2rem);
+    }
 }
