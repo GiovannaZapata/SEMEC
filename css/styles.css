@@ -10672,11 +10672,11 @@ html {
 }
 
 .page-section {
-    padding: 1.5rem 0;
+    padding: 5rem;
 }
 
 .page-section2 {
-    padding-bottom: 6rem;
+    padding-bottom: 5rem;
 }
 
 .page-section .page-section-heading {
@@ -11139,19 +11139,21 @@ html {
 /* otros productosy costos */
 
 .textOtros {
-    text-align: left;
+    text-align: left;    
 }
 
 .costosContainer {
     background-color: rgb(33, 75, 117);
-    padding: 2rem;
+    padding: 3rem;
     text-align: left;
     margin-left: 1.3rem;
     margin-right: 1.3rem;
+
 }
 
 .masthead-subheading2 {
     font-size: 1.1rem;
+
 }
 
 @media (min-width: 992px) {
