@@ -10672,11 +10672,11 @@ html {
 }
 
 .page-section {
-    padding: 5rem;
+    padding: 5rem 0;
 }
 
 .page-section2 {
-    padding-bottom: 5rem;
+    padding-bottom: 5rem 0;
 }
 
 .page-section .page-section-heading {
@@ -11137,18 +11137,25 @@ html {
 
 
 /* otros productosy costos */
-
 .textOtros {
     text-align: left;    
+    padding: 1rem;
+    padding-right: 2rem;
+}
+
+@media (min-width: 992px) {
+    .textOtros {
+        padding: 1rem;
+        padding-right: 2rem;
+    }
 }
 
 .costosContainer {
     background-color: rgb(33, 75, 117);
-    padding: 3rem;
+    padding: 2rem;
     text-align: left;
     margin-left: 1.3rem;
     margin-right: 1.3rem;
-
 }
 
 .masthead-subheading2 {
