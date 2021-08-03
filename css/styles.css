@@ -10680,7 +10680,7 @@ html {
 }
 
 .page-section .page-section-heading {
-    font-size: 1.9rem;
+    font-size: 1.4rem;
     line-height: 2rem;
 }
 
@@ -10894,7 +10894,7 @@ html {
 }
 
 .masthead-subheading {
-    font-size: 1.05rem;
+    font-size: 1rem;
 }
 
 .masthead .masthead-avatar {
@@ -10920,6 +10920,7 @@ html {
     max-width: 25rem;
     border-radius: 0.5rem;
     overflow: hidden;
+
 }
 
 .portfolio .portfolio-item .portfolio-item-caption {
@@ -11029,12 +11030,8 @@ html {
 
 .card {
     background-color: rgba(88, 174, 184, 0.089);
-    height: 35rem;
-}
-
-.cardintroProduct {
-    background-color: rgba(88, 174, 184, 0.089);
-    height: 35rem;
+    min-height: 35rem;
+    margin: 10px;
 }
 
 .card-text {
@@ -11159,13 +11156,13 @@ html {
 }
 
 .masthead-subheading2 {
-    font-size: 1.1rem;
+    font-size: 0.85rem;
 
 }
 
 @media (min-width: 992px) {
     .masthead-subheading2 {
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
 }
 
