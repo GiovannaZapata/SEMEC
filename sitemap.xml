@@ -1,199 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?> 
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
-<url>
-  <loc>https://www.udinamo.edu.mx</loc>
-  <changefreq>yearly</changefreq>
-</url>
-<url>
-  <loc>http://www.udinamo.edu.mx/index.php</loc>
-  <changefreq>yearly</changefreq>
-</url>
-<url>
-  <loc>http://www.udinamo.edu.mx/nosotros</loc>
-  <changefreq>yearly</changefreq>
-</url>
-<url>
-  <loc>http://www.udinamo.edu.mx/rectoria</loc>
-  <changefreq>yearly</changefreq>
-</url>
-<url>
-  <loc>https://www.udinamo.edu.mx/Contacto</loc>
-  <changefreq>yearly</changefreq>
-</url>
-<url>
-  <loc>https://www.udinamo.edu.mx/talent/</loc>
-  <changefreq>yearly</changefreq>
-</url>
-<url>
-  <loc>https://www.udinamo.edu.mx/soydinamotalent</loc>
-  <changefreq>yearly</changefreq>
-</url>
-<url>
-  <loc>https://www.udinamo.edu.mx/aplicaradmontalent</loc>
-  <changefreq>yearly</changefreq>
-</url>
-<url>
-  <loc>https://www.udinamo.edu.mx/dinamolatam</loc>
-  <changefreq>yearly</changefreq>
-</url>
-<url>
-  <loc>https://udinamo.edu.mx/formatos-academicos/print_fpuda.php</loc>
-  <changefreq>yearly</changefreq>
-</url>
-<url>
-  <loc>https://udinamo.edu.mx/formatos-academicos/print_fpact.php</loc>
-  <changefreq>yearly</changefreq>
-</url>
-<url>
-  <loc>http://www.udinamo.edu.mx/Ficha</loc>
-  <changefreq>yearly</changefreq>
-</url>
-<url>
-  <loc>https://www.udinamo.edu.mx/Pago/formas-de-pago.php</loc>
-  <changefreq>yearly</changefreq>
-</url>
-<url>
-  <loc>https://www.udinamo.edu.mx/blog</loc>
-  <changefreq>yearly</changefreq>
-</url>
-<url>
-  <loc>https://www.udinamo.edu.mx/podcast</loc>
-  <changefreq>yearly</changefreq>
-</url>
-<url>
-  <loc>http://udinamo.edu.mx/Contacto/</loc>
-  <changefreq>yearly</changefreq>
-</url>
-<url>
-  <loc>https://www.udinamo.edu.mx/aviso-de-privacidad.php</loc>
-  <changefreq>yearly</changefreq>
-</url>
-<url>
-  <loc>https://www.udinamo.edu.mx/terminos-y-condiciones.php</loc>
-  <changefreq>yearly</changefreq>
-</url>
-<url>
-  <loc>https://www.udinamo.edu.mx/Ficha/</loc>
-  <changefreq>yearly</changefreq>
-</url>
-<url>
-  <loc>http://www.udinamo.edu.mx/</loc>
-  <changefreq>yearly</changefreq>
-</url>
-<url>
-  <loc>https://www.udinamo.edu.mx/Contacto/</loc>
-  <changefreq>yearly</changefreq>
-</url>
-<url>
-  <loc>http://www.udinamo.edu.mx/Contacto/</loc>
-  <changefreq>yearly</changefreq>
-</url>
-<url>
-  <loc>https://www.udinamo.edu.mx/aplicardinamotalent/</loc>
-  <changefreq>yearly</changefreq>
-</url>
-<url>
-  <loc>https://udinamo.edu.mx/Contacto/</loc>
-  <changefreq>yearly</changefreq>
-</url>
-<url>
-  <loc>http://udinamo.edu.mx/cartadocumentos</loc>
-  <changefreq>yearly</changefreq>
-</url>
-<url>
-  <loc>https://www.udinamo.edu.mx/Pago/pago-mercado-pago.php</loc>
-  <changefreq>yearly</changefreq>
-</url>
-<url>
-  <loc>https://www.udinamo.edu.mx/../pago-tiendas.pdf</loc>
-  <changefreq>yearly</changefreq>
-</url>
-<url>
-  <loc>https://www.udinamo.edu.mx/blog/</loc>
-  <changefreq>yearly</changefreq>
-</url>
-<url>
-  <loc>http://www.udinamo.edu.mx</loc>
-  <changefreq>yearly</changefreq>
-</url>
-<url>
-  <loc>https://www.udinamo.edu.mx/images/Carreras/pag/Bachcuatri.php</loc>
-  <changefreq>yearly</changefreq>
-</url>
-<url>
-  <loc>https://www.udinamo.edu.mx/images/Carreras/pag/Bachsem.php</loc>
-  <changefreq>yearly</changefreq>
-</url>
-<url>
-  <loc>https://www.udinamo.edu.mx/images/Carreras/pag/Bacheje.php</loc>
-  <changefreq>yearly</changefreq>
-</url>
-<url>
-  <loc>https://www.udinamo.edu.mx/images/Carreras/pag/Bachonline.php</loc>
-  <changefreq>yearly</changefreq>
-</url>
-<url>
-  <loc>https://www.udinamo.edu.mx/images/Carreras/pag/Enfermer%C3%ADa.php</loc>
-  <changefreq>yearly</changefreq>
-</url>
-<url>
-  <loc>https://www.udinamo.edu.mx/images/Carreras/pag/Fis.php</loc>
-  <changefreq>yearly</changefreq>
-</url>
-<url>
-  <loc>https://www.udinamo.edu.mx/images/Carreras/pag/Nenf.php</loc>
-  <changefreq>yearly</changefreq>
-</url>
-<url>
-  <loc>https://www.udinamo.edu.mx/images/Carreras/pag/Der.php</loc>
-  <changefreq>yearly</changefreq>
-</url>
-<url>
-  <loc>https://www.udinamo.edu.mx/images/Carreras/pag/Com.php</loc>
-  <changefreq>yearly</changefreq>
-</url>
-<url>
-  <loc>https://www.udinamo.edu.mx/images/Carreras/pag/Ges.php</loc>
-  <changefreq>yearly</changefreq>
-</url>
-<url>
-  <loc>https://www.udinamo.edu.mx/images/Carreras/pag/Arq.php</loc>
-  <changefreq>yearly</changefreq>
-</url>
-<url>
-  <loc>https://www.udinamo.edu.mx/images/Carreras/pag/Mkt.php</loc>
-  <changefreq>yearly</changefreq>
-</url>
-<url>
-  <loc>https://www.udinamo.edu.mx/images/Carreras/pag/Adm.php</loc>
-  <changefreq>yearly</changefreq>
-</url>
-<url>
-  <loc>https://www.udinamo.edu.mx/images/Carreras/pag/Civ.php</loc>
-  <changefreq>yearly</changefreq>
-</url>
-<url>
-  <loc>https://www.udinamo.edu.mx/images/Carreras/pag/Industrial.php</loc>
-  <changefreq>yearly</changefreq>
-</url>
-<url>
-  <loc>https://www.udinamo.edu.mx/images/Carreras/pag/Computacionales.php</loc>
-  <changefreq>yearly</changefreq>
-</url>
-<url>
-  <loc>http://www.udinamo.edu.mx/podcast</loc>
-  <changefreq>yearly</changefreq>
-</url>
-<url>
-  <loc>http://www.udinamo.edu.mx/inscripcion-en-linea.php</loc>
-  <changefreq>yearly</changefreq>
-</url>
-<url>
-  <loc>https://www.udinamo.edu.mx/soydinamotalent/</loc>
-  <changefreq>yearly</changefreq>
-</url>
-<url>
-  <loc>https://www.udinamo.edu.mx/aplicaradmontalent/</loc>
-  <changefreq>yearly</changefreq>
-</url>
+  <url>
+    <loc>http://www.semec.com.mx/</loc>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.semec.com.mx/index.html</loc>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.semec.com.mx/nosotros.html</loc>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.semec.com.mx/servicios.html</loc>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.semec.com.mx/productos.html</loc>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.semec.com.mx/clientes.html</loc>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.semec.com.mx/certificaciones.html</loc>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.semec.com.mx/contacto.html</loc>
+    <changefreq>yearly</changefreq>
+  </url>
 </urlset>
