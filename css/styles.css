@@ -10976,6 +10976,17 @@ html {
     padding: 1rem;
 }
 
+.Btnvermas {
+    background-color: rgb(33, 75, 117);
+    color: white;
+    margin-top: 2rem;
+}
+
+.Btnvermas:hover {
+    background-color: rgb(21, 46, 71);
+    color: white;
+}
+
 
 /* Conoce a nuestros clientes*/
 
