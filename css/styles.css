@@ -11026,7 +11026,6 @@ html {
 
 
 /*Nuestros productos*/
-
 .card {
     background-color: rgba(88, 174, 184, 0.089);
     min-height: 35rem;
@@ -11061,7 +11060,15 @@ html {
 .Btnvertodos {
     background-color: rgb(33, 75, 117);
     color: white;
-    margin-right: 10px;
+    margin-top: 1rem;
+}
+
+@media (min-width: 992px) {
+    .Btnvertodos {
+        background-color: rgb(33, 75, 117);
+        color: white;
+        margin-top: 4rem;
+    }
 }
 
 .Btnvertodos:hover {
