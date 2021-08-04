@@ -11134,7 +11134,7 @@ html {
 
 /* otros productosy costos */
 .textOtros {
-    text-align: left;    
+    text-align: justify;    
     padding: 1rem;
     padding-right: 2rem;
 }
@@ -11143,6 +11143,16 @@ html {
     .textOtros {
         padding: 1rem;
         padding-right: 2rem;
+    }
+}
+
+.imgotros {
+    width: 75%;
+}
+
+@media (min-width: 992px) {
+    .imgotros {
+        width: 100%;
     }
 }
 
